@@ -1,6 +1,6 @@
 ### Description of the Real-Time Clock (RTC) Project
 
-This project is a simple real-time clock (RTC) implemented on an AVR microcontroller. It features a user interface for setting the clock using a keypad and displays the current time on a seven-segment display. The project utilizes Timer2 for keeping track of seconds, and it supports hours, minutes, and seconds display.
+This project is a Real-Time Clock (RTC) implemented on an AVR microcontroller. It features a user interface for setting the clock using a keypad and displays the current time on a seven-segment display. The project utilizes Timer2 for keeping track of seconds, and it supports hours, minutes, and seconds display.
 
 #### Project Components
 
