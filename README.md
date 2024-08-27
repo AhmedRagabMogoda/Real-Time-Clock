@@ -52,7 +52,6 @@ This project is a Real-Time Clock (RTC) implemented on an AVR microcontroller. I
 - **Prescaler**: Set to 128 to achieve a timer clock frequency of 256 Hz (based on a 32.768 kHz external clock source). This configuration results in a timer overflow interrupt every second.
 - **Interrupt Enable**: Timer overflow interrupt is enabled with `SET_BIT(TIMSK, TOIE2)`.
 
-
 This project demonstrates a basic real-time clock application using an AVR microcontroller. It incorporates:
 - **User Input**: For setting the time through a keypad.
 - **Timekeeping**: Managed by Timer2 and displayed on a seven-segment display.
